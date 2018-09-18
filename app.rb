@@ -6,8 +6,9 @@ get '/' do
 end
 
 post '/events' do
-  challenge_code = request.body['challenge']
+  ap request
   ap request.body
+  challenge_code = request.body['challenge']
   ap challenge_code
   status 200
   body challenge_code

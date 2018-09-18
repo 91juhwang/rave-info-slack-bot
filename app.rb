@@ -6,8 +6,8 @@ get '/' do
 end
 
 post '/events' do
-  ap params
-  challenge_code = params[:challenge_code]
+  challenge_code = request.body['challenge']
+  ap request.body
   ap challenge_code
   status 200
   body challenge_code

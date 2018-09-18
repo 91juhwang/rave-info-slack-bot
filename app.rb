@@ -5,7 +5,7 @@ get '/' do
   "Hello World!"
 end
 
-get '/events' do
+post '/events' do
   ap params
   challenge_code = params[:challenge_code]
   ap challenge_code

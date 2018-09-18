@@ -7,6 +7,7 @@ GEM
       multipart-post (>= 1.2, < 3)
     multipart-post (2.0.0)
     mustermann (1.0.3)
+    puma (3.12.0)
     rack (2.0.5)
     rack-protection (2.0.4)
       rack
@@ -24,6 +25,7 @@ DEPENDENCIES
   awesome_print
   dotenv
   faraday
+  puma
   sinatra
 
 BUNDLED WITH
